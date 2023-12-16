@@ -1,0 +1,95 @@
+*{
+    margin: 0%  ;
+}
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    height: 100vh;
+}
+.whiteBG{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    background-color:rgba(255, 255, 255, 0.397);
+    border-radius: 5px;
+    padding: 20px;
+}
+.whiteBG>form>div>div>input{
+padding: 5px;
+border: none;
+}
+.whiteBG>form>div>div>select{
+    padding: 5px;
+   }
+.inputComp{
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 5px; */
+    padding: 10px;
+    background-color: white;
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 5px; */
+    padding: 10px;
+    background-color: white;
+}
+.content>label{
+    color: rgba(101, 101, 101, 0.722);
+
+}
+.content2>label{
+    color: rgba(101, 101, 101, 0.742);
+}
+.swapbutton{
+    padding: 10px;
+    color: white;
+    background-color: rgb(16, 142, 244);
+    border: none;
+    border-radius: 5px;
+}
+.swapbutton:hover{
+    padding: 10px;
+    color: white;
+    background-color: rgb(101, 195, 254);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.convert{
+    padding: 10px;
+    color: white;
+    width: 200px;
+    background-color: rgb(16, 142, 244);
+    border: none;
+    border-radius: 5px;
+}
+.convert:hover{
+    padding: 10px;
+    color: white;
+    width: 200px;
+    background-color: rgb(68, 165, 244);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.mainForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
